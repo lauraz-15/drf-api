@@ -63,10 +63,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = 'DEV' in os.environ
 
-ALLOWED_HOSTS = [
+ALLOWED_HOST = [
     os.environ.get('ALLOWED_HOST'),
     'localhost',
-    '*',
     ]
 
 if 'CLIENT_ORIGIN' in os.environ:
