@@ -32,4 +32,3 @@ urlpatterns = [
     path('', include('followers.urls')),
 
 ]
-Footer
